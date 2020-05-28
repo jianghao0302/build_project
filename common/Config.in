@@ -1,0 +1,10 @@
+
+menu "Log Support"
+
+config PTHREAD_LOG
+    bool "user pthread log"
+    default n
+    help
+      Allow config pthread safe log.
+
+endmenu

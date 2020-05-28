@@ -14,19 +14,19 @@ scripts/config/qconf:
 scripts/config/conf:
 	@cd scripts config && make conf
 
-config: scripts/config/conf FORCE
+config: scripts/config/conf
 
 
-defconfig: scripts/config/conf FORCE
+defconfig: scripts/config/conf
 
-oldconfig: scripts/config/conf FORCE
+oldconfig: scripts/config/conf
 
-menuconfig: scripts/config/mconf FORCE
+menuconfig: scripts/config/mconf
 	$< Config.in
 
 
-xconfig: scripts/config/qconf FORCE
+xconfig: scripts/config/qconf
 
 
-config-clean: FORCE
+config-clean:
 

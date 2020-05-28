@@ -1,0 +1,5 @@
+mainmenu "Project Configuration"
+
+source "common/Config.in"
+source "configs/Config.in"
+source "externel/Config.in"
